@@ -1,6 +1,7 @@
 # 🚀 Naveen Kumar K — Portfolio
 
 <div align="center">
+check my portfolio here ! https://myportfolio-five-rouge-12.vercel.app/
 
 ![Portfolio Preview](https://myportfolio-five-rouge-12.vercel.app/)
 
