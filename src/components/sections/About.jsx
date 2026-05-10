@@ -50,6 +50,26 @@ const About = () => {
                   and Algorithms (DSA).
                 </p>
               </div>
+
+              {/* Portfolio Live Link */}
+              <div className="mt-6 pt-6 border-t border-white/10 flex flex-wrap gap-4">
+                <a
+                  href="https://myportfolio-five-rouge-12.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="flex items-center gap-2 bg-neon-purple text-white px-5 py-2.5 rounded-xl font-semibold text-sm hover:shadow-[0_0_20px_rgba(139,92,246,0.5)] hover:-translate-y-0.5 transition-all duration-300"
+                >
+                  🌐 View Live Portfolio
+                </a>
+                <a
+                  href="https://github.com/naveenkumar-arch/MY_PORTFOLIO"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="flex items-center gap-2 bg-white/5 border border-white/10 text-gray-300 px-5 py-2.5 rounded-xl font-semibold text-sm hover:border-neon-blue hover:text-white hover:-translate-y-0.5 transition-all duration-300"
+                >
+                  ⭐ GitHub Source
+                </a>
+              </div>
             </GlassCard>
           </motion.div>
 
