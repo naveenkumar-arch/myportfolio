@@ -6,6 +6,15 @@ import GlassCard from '../ui/GlassCard';
 
 const projects = [
   {
+    title: 'AI Voice Code Automation',
+    description: 'An innovative AI-powered system that translates spoken voice commands into structured, executable TypeScript and JavaScript code in real-time.',
+    techStack: ['TypeScript', 'Voice AI', 'Web Speech API', 'OpenAI', 'Automation'],
+    github: 'https://github.com/naveenkumar-arch/AUTOMATION_CODE_USING_VOICE-AI',
+    demo: '#',
+    image: 'https://images.unsplash.com/photo-1589254065878-42c9da997008?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    featured: true
+  },
+  {
     title: 'E-commerce Web Application',
     description: 'A comprehensive full-stack e-commerce platform built to handle product management, secure authentication, and seamless transactions.',
     techStack: ['Java', 'Spring Boot', 'React', 'SQL'],
@@ -24,6 +33,14 @@ const projects = [
     featured: true
   },
   {
+    title: 'JARVIS AI Assistant',
+    description: 'A sleek Tony Stark-themed AI desktop assistant supporting dynamic verbal interaction, offline speech processing, custom macros, and smart system commands.',
+    techStack: ['TypeScript', 'React', 'Speech Recognition', 'Speech Synthesis', 'Tailwind CSS'],
+    github: 'https://github.com/naveenkumar-arch/JARVIS_Tony_stark_ai_assistant',
+    demo: '#',
+    image: 'https://images.unsplash.com/photo-1507668077129-56e32842fceb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+  },
+  {
     title: 'Cyber Net Lab',
     description: 'Interactive platform for learning networking and cybersecurity fundamentals. Includes visual labs for IPv4, IPv6, TCP/UDP, DNS, and HTTP/HTTPS.',
     techStack: ['HTML', 'CSS', 'JavaScript'],
@@ -32,12 +49,36 @@ const projects = [
     image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
   },
   {
+    title: 'Interactive Cryptography 101',
+    description: 'An educational playground designed for learning hashing, encoding, encryption, ciphers, and interactive browser-based password cracking challenges.',
+    techStack: ['HTML', 'CSS', 'JavaScript', 'Cryptography', 'Cybersecurity'],
+    github: 'https://github.com/naveenkumar-arch/hashing-crypto-101',
+    demo: 'https://naveenkumar-arch.github.io/hashing-crypto-101/',
+    image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    title: 'AI Resume Checker',
+    description: 'An intelligent candidate application companion that parses resumes and scores them against customizable industry profiles and job specs.',
+    techStack: ['TypeScript', 'React', 'Tailwind CSS', 'NLP', 'JSON Parser'],
+    github: 'https://github.com/naveenkumar-arch/RESUME_CHECKER',
+    demo: '#',
+    image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+  },
+  {
     title: 'API Securing Using Proxy',
     description: 'API integration and securing mechanism utilizing a proxy architecture to protect endpoints from direct exposure and attacks.',
     techStack: ['JavaScript', 'Node.js', 'API'],
     github: 'https://github.com/naveenkumar-arch/API-SECURING-USING-PROXY',
     demo: 'https://api-securing-using-proxy.vercel.app',
     image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    title: 'Temporary Ephemeral Chat',
+    description: 'A modern, secure real-time messaging application using WebSockets for dynamic P2P chat rooms that leave zero trace or logs behind.',
+    techStack: ['TypeScript', 'React', 'WebSockets', 'Node.js', 'Tailwind CSS'],
+    github: 'https://github.com/naveenkumar-arch/TEMP_CHAT',
+    demo: '#',
+    image: 'https://images.unsplash.com/photo-1611746872915-64382b5c76da?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
   },
   {
     title: 'PokeWeather',

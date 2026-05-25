@@ -22,6 +22,19 @@ const certifications = [
     link: 'https://www.linkedin.com/in/naveen-kumar-k-700b802b9/'
   },
   {
+    title: 'Introduction to Cyber Attack for Beginners',
+    issuer: 'Udemy (Mahmoud H. Elsaied)',
+    date: '2025',
+    description: 'Core cybersecurity concepts: understanding common attack vectors, scanning techniques, vulnerability assessment, and defense strategies.',
+    icon: FiShield,
+    gradient: 'from-red-600/20 to-purple-900/10',
+    border: 'border-red-500/30',
+    glow: 'hover:shadow-[0_0_25px_rgba(239,68,68,0.3)]',
+    iconColor: 'text-red-400',
+    badge: '🛡️ Security',
+    link: 'https://www.linkedin.com/in/naveen-kumar-k-700b802b9/'
+  },
+  {
     title: 'Cybersecurity Fundamentals',
     issuer: 'Udemy',
     date: '2025',
@@ -48,6 +61,19 @@ const certifications = [
     link: 'https://www.linkedin.com/in/naveen-kumar-k-700b802b9/'
   },
   {
+    title: 'Learn SQL with 100 Coding Exercises',
+    issuer: 'Udemy (Muhammad Amin Javaid)',
+    date: '2026',
+    description: 'Hands-on SQL query optimization, database design, complex joins, subqueries, and solving 100 analytical database challenges.',
+    icon: FiDatabase,
+    gradient: 'from-cyan-600/20 to-blue-900/10',
+    border: 'border-cyan-500/30',
+    glow: 'hover:shadow-[0_0_25px_rgba(6,182,212,0.3)]',
+    iconColor: 'text-cyan-400',
+    badge: '🗃️ Database',
+    link: 'https://www.linkedin.com/in/naveen-kumar-k-700b802b9/'
+  },
+  {
     title: 'Java Full Stack Developer',
     issuer: 'Code Builders',
     date: '2026',
@@ -58,33 +84,33 @@ const certifications = [
     glow: 'hover:shadow-[0_0_25px_rgba(249,115,22,0.3)]',
     iconColor: 'text-orange-400',
     badge: '☕ Java',
-    link: '#'
+    link: 'https://www.linkedin.com/in/naveen-kumar-k-700b802b9/'
   },
   {
-    title: 'Responsive CSS Web App',
-    issuer: 'Udemy',
+    title: 'HTML, CSS, Java & JavaScript: Full Stack Programming',
+    issuer: 'Udemy (Sara Academy)',
     date: '2026',
-    description: 'Mastered CSS layout techniques, flexbox, grid, animations, and responsive design for modern web applications.',
+    description: 'Mastery of full-stack programming foundations: structural HTML5, stylized responsive CSS3, core Java programming, and dynamic frontend JavaScript.',
     icon: FiCode,
-    gradient: 'from-cyan-600/20 to-cyan-900/10',
-    border: 'border-cyan-500/30',
-    glow: 'hover:shadow-[0_0_25px_rgba(6,182,212,0.3)]',
-    iconColor: 'text-cyan-400',
-    badge: '🎨 Frontend',
-    link: '#'
+    gradient: 'from-blue-600/20 to-indigo-900/10',
+    border: 'border-blue-500/30',
+    glow: 'hover:shadow-[0_0_25px_rgba(59,130,246,0.3)]',
+    iconColor: 'text-blue-400',
+    badge: '💻 Full Stack',
+    link: 'https://www.linkedin.com/in/naveen-kumar-k-700b802b9/'
   },
   {
-    title: 'HTML5 Mastering Concepts',
-    issuer: 'Udemy',
+    title: 'AWS Essentials: A Complete Beginner\'s Guide',
+    issuer: 'Udemy (Learnify IT)',
     date: '2026',
-    description: 'Comprehensive HTML5 course covering semantic elements, accessibility, forms, media, and modern web standards.',
-    icon: FiCode,
-    gradient: 'from-yellow-600/20 to-yellow-900/10',
-    border: 'border-yellow-500/30',
-    glow: 'hover:shadow-[0_0_25px_rgba(234,179,8,0.3)]',
-    iconColor: 'text-yellow-400',
-    badge: '🌐 Web',
-    link: '#'
+    description: 'Comprehensive introduction to AWS cloud computing, covering core services like EC2, S3, RDS, IAM, and cloud architectural best practices.',
+    icon: FaAws,
+    gradient: 'from-orange-600/20 to-amber-900/10',
+    border: 'border-orange-500/30',
+    glow: 'hover:shadow-[0_0_25px_rgba(249,115,22,0.3)]',
+    iconColor: 'text-orange-400',
+    badge: '☁️ Cloud',
+    link: 'https://www.linkedin.com/in/naveen-kumar-k-700b802b9/'
   },
   {
     title: 'AWS Certification',
@@ -97,7 +123,59 @@ const certifications = [
     glow: 'hover:shadow-[0_0_25px_rgba(245,158,11,0.3)]',
     iconColor: 'text-amber-400',
     badge: '☁️ Cloud',
-    link: '#'
+    link: 'https://www.linkedin.com/in/naveen-kumar-k-700b802b9/'
+  },
+  {
+    title: 'Responsive CSS Web App',
+    issuer: 'Udemy',
+    date: '2026',
+    description: 'Mastered CSS layout techniques, flexbox, grid, animations, and responsive design for modern web applications.',
+    icon: FiCode,
+    gradient: 'from-cyan-600/20 to-cyan-900/10',
+    border: 'border-cyan-500/30',
+    glow: 'hover:shadow-[0_0_25px_rgba(6,182,212,0.3)]',
+    iconColor: 'text-cyan-400',
+    badge: '🎨 Frontend',
+    link: 'https://www.linkedin.com/in/naveen-kumar-k-700b802b9/'
+  },
+  {
+    title: 'Responsive Web Design with CSS',
+    issuer: 'Udemy (Sheikh Coding Institute)',
+    date: '2026',
+    description: 'Designing responsive, mobile-first websites using modern CSS layouts: Flexbox, Grid, media queries, and fluid typography.',
+    icon: FiCode,
+    gradient: 'from-purple-600/20 to-pink-900/10',
+    border: 'border-purple-500/30',
+    glow: 'hover:shadow-[0_0_25px_rgba(168,85,247,0.3)]',
+    iconColor: 'text-purple-400',
+    badge: '🎨 Frontend',
+    link: 'https://www.linkedin.com/in/naveen-kumar-k-700b802b9/'
+  },
+  {
+    title: 'HTML5 Mastering Concepts',
+    issuer: 'Udemy',
+    date: '2026',
+    description: 'Comprehensive HTML5 course covering semantic elements, accessibility, forms, media, and modern web standards.',
+    icon: FiCode,
+    gradient: 'from-yellow-600/20 to-yellow-900/10',
+    border: 'border-yellow-500/30',
+    glow: 'hover:shadow-[0_0_25px_rgba(234,179,8,0.3)]',
+    iconColor: 'text-yellow-400',
+    badge: '🌐 Web',
+    link: 'https://www.linkedin.com/in/naveen-kumar-k-700b802b9/'
+  },
+  {
+    title: 'Mastering HTML5 and CSS3 (Advanced Level)',
+    issuer: 'Udemy (Kioomars Jonood)',
+    date: '2026',
+    description: 'Advanced frontend engineering using semantic HTML5 tags, canvas/media, custom animations, transitions, and robust style systems.',
+    icon: FiCode,
+    gradient: 'from-yellow-600/20 to-amber-900/10',
+    border: 'border-yellow-500/30',
+    glow: 'hover:shadow-[0_0_25px_rgba(234,179,8,0.3)]',
+    iconColor: 'text-yellow-400',
+    badge: '🌐 Web',
+    link: 'https://www.linkedin.com/in/naveen-kumar-k-700b802b9/'
   },
 ];
 
