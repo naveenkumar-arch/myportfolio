@@ -70,7 +70,7 @@ const Education = () => {
                   <p className="text-neon-blue font-medium mt-1">Completed in 2023</p>
                 </div>
                 <h5 className="text-lg font-semibold text-gray-200">Holy Cross Matric Hr. Sec. School</h5>
-                <p className="text-gray-400 text-sm mt-1">All Pass</p>
+                <p className="text-neon-blue font-semibold mt-2">Percentage: 91.5%</p>
               </GlassCard>
             </div>
           </motion.div>
