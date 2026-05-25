@@ -8,7 +8,7 @@ const stats = [
   { label: 'DSA Questions Solved', value: '150+', icon: FiCode, color: 'text-neon-purple' },
   { label: 'SQL Problems Solved', value: '150+', icon: FiTerminal, color: 'text-neon-blue' },
   { label: 'GitHub Repositories', value: '10+', icon: FiGithub, color: 'text-white' },
-  { label: 'Awards Won', value: '1', icon: FiActivity, color: 'text-green-400' },
+  { label: 'Awards Won', value: '4', icon: FiActivity, color: 'text-green-400' },
 ];
 
 const About = () => {

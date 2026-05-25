@@ -6,25 +6,18 @@ import GlassCard from '../ui/GlassCard';
 
 const achievements = [
   {
-    title: 'National Cybersecurity CTF',
+    title: 'Cybersecurity CTFs (MythX)',
     description: 'Ranked 59 out of 270 in the MythX National Level Cybersecurity CTF. Qualified for the prestigious national offline finals held at KIET Group of Institutions, Delhi, after clearing the nationwide online qualifying round (2026).',
     icon: FiShield,
     color: 'text-red-400',
     borderColor: 'border-red-500/50'
   },
   {
-    title: 'Offensive Security & Symposiums',
-    description: 'Secured 2nd Prize in Code of Shadows at the SRM Valliammai Engineering College symposium (2026). Achieved 2nd Prize in Payload Paradise (exploitation/pentesting) at Dhanalakshmi Engineering College (2026).',
+    title: 'Symposium & Hacking Awards',
+    description: 'Secured 2nd Prize in Code of Shadows (SRM VEC), 2nd Prize in Payload Paradise (Dhanalakshmi), 3rd Prize in Bug Bash (Dhanalakshmi), and 2nd Prize in Trading Emperor (SRM VEC) during 2026 symposiums.',
     icon: FiAward,
     color: 'text-blue-400',
     borderColor: 'border-blue-400/50'
-  },
-  {
-    title: 'Debugging & Fintech Contests',
-    description: 'Won 2nd Prize in Trading Emperor at the SRM Valliammai Engineering College symposium (2026). Earned 3rd Prize in the Bug Bash debugging contest at Dhanalakshmi Engineering College (2026).',
-    icon: FiActivity,
-    color: 'text-yellow-400',
-    borderColor: 'border-yellow-500/50'
   },
   {
     title: 'Problem Solving & DSA',
@@ -34,18 +27,11 @@ const achievements = [
     borderColor: 'border-orange-500/50'
   },
   {
-    title: 'Leadership & White Hations Club',
-    description: 'Executive Committee Member & Event Organizer for White Hations Club. Organized high-impact Hackathons and technical events at Karpaga Vinayaga College.',
+    title: 'Leadership & Industry Experience',
+    description: 'Executive Committee Member & Event Organizer for White Hations Club. Gained industrial exposure through field visits to BSNL Company (Chennai), Masco Tea Factory, and Kerala Electrical Company.',
     icon: FiUsers,
     color: 'text-purple-400',
     borderColor: 'border-purple-500/50'
-  },
-  {
-    title: 'Industrial & Enterprise Visits',
-    description: 'Gained industrial exposure through onsite field visits to BSNL Company (Chennai), Masco Tea Factory (Kochi), and Kerala Electrical Company (Vagamon).',
-    icon: FiActivity,
-    color: 'text-green-400',
-    borderColor: 'border-green-500/50'
   }
 ];
 
@@ -59,7 +45,7 @@ const ExperienceJourney = () => {
           subtitle="My national cybersecurity CTF rankings, symposium wins, leadership milestones, and industrial exposure."
         />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {achievements.map((item, index) => (
             <motion.div
               key={index}
@@ -67,7 +53,6 @@ const ExperienceJourney = () => {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="h-full"
             >
               <GlassCard className={`h-full border-t-2 ${item.borderColor} hover:-translate-y-2 transition-all duration-300 flex flex-col`}>
                 <div className={`w-12 h-12 rounded-full bg-background flex items-center justify-center mb-6 border border-white/10 ${item.color}`}>
