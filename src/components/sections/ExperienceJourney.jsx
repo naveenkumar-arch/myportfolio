@@ -55,7 +55,7 @@ const ExperienceJourney = () => {
     <section id="experience" className="py-24 relative">
       <div className="container mx-auto px-6">
         <SectionHeading 
-          title="Achievements & Roles" 
+          title="Awards Won" 
           subtitle="My national cybersecurity CTF rankings, symposium wins, leadership milestones, and industrial exposure."
         />
 
