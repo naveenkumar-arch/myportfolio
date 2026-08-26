@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FiShield, FiAlertTriangle, FiCheckCircle, FiFileText, FiLock, FiTerminal, FiKey } from 'react-icons/fi';
+import { FiShield, FiAlertTriangle, FiCheckCircle, FiFileText, FiLock, FiExternalLink, FiTerminal, FiKey } from 'react-icons/fi';
 import SectionHeading from '../ui/SectionHeading';
 import GlassCard from '../ui/GlassCard';
 
@@ -8,6 +8,7 @@ const securityReports = [
   {
     title: 'RIT INFINIX Portal — Full-Spectrum Authentication & Access Control Assessment',
     target: 'ritinfinix.vercel.app',
+    url: 'https://ritinfinix.vercel.app',
     date: 'August 2026',
     severity: 'Critical (5 Findings)',
     category: 'Authentication Bypass & Credential Disclosure',
@@ -40,6 +41,7 @@ const securityReports = [
   {
     title: 'E-Commerce & Retail Ledger — Transactional Logic & Workflow Audit',
     target: 'Production Retail Portals',
+    url: 'https://www.vrgnursery.in',
     date: 'July 2026',
     severity: 'High / Logic Flaws',
     category: 'Business Logic & Order Tampering Prevention',
@@ -91,7 +93,7 @@ const BugBounty = () => {
                 {/* Header Info */}
                 <div className="flex flex-wrap items-center justify-between gap-4 pb-6 border-b border-white/10 mb-6">
                   <div>
-                    <div className="flex items-center gap-2 mb-2">
+                    <div className="flex flex-wrap items-center gap-2 mb-2">
                       <span className="bg-red-950/80 border border-red-500/50 text-red-400 text-xs font-bold px-3 py-1 rounded-full flex items-center gap-1.5 shadow-sm">
                         <FiAlertTriangle className="w-3.5 h-3.5" />
                         {report.severity}
@@ -99,18 +101,37 @@ const BugBounty = () => {
                       <span className="text-xs font-semibold text-gray-400 bg-white/5 border border-white/10 px-3 py-1 rounded-full">
                         {report.date}
                       </span>
+                      <span className="text-xs font-bold text-red-400 bg-red-950/40 border border-red-500/30 px-3 py-1 rounded-full">
+                        {report.category}
+                      </span>
                     </div>
                     <h3 className="text-2xl font-extrabold text-white">
                       {report.title}
                     </h3>
-                    <p className="text-sm font-jetbrains text-red-400 mt-1">
-                      Scope: <span className="text-gray-300 font-normal">{report.target}</span> • Type: <span className="text-gray-300 font-normal">{report.category}</span>
-                    </p>
+                    <div className="flex items-center gap-2 mt-2">
+                      <span className="text-xs font-jetbrains text-gray-400">Target URL:</span>
+                      <a 
+                        href={report.url} 
+                        target="_blank" 
+                        rel="noreferrer"
+                        className="inline-flex items-center gap-1.5 text-xs font-bold font-jetbrains text-red-400 hover:text-white bg-red-950/50 hover:bg-red-900/50 border border-red-500/40 px-3 py-1 rounded-lg transition-all shadow-sm hover:shadow-[0_0_10px_rgba(239,68,68,0.3)]"
+                      >
+                        <span>{report.target}</span>
+                        <FiExternalLink size={12} />
+                      </a>
+                    </div>
                   </div>
 
-                  <div className="hidden sm:flex items-center gap-2 text-xs font-bold text-gray-300 bg-white/5 border border-white/10 px-3.5 py-2 rounded-xl">
-                    <FiFileText className="w-4 h-4 text-neon-blue" />
-                    <span>Responsible Disclosure</span>
+                  <div className="flex items-center gap-3">
+                    <a 
+                      href={report.url} 
+                      target="_blank" 
+                      rel="noreferrer"
+                      className="inline-flex items-center gap-1.5 text-xs font-bold text-white bg-red-600 hover:bg-red-500 px-4 py-2 rounded-xl transition-all shadow-[0_0_15px_rgba(239,68,68,0.4)] hover:shadow-[0_0_20px_rgba(239,68,68,0.7)] hover:-translate-y-0.5"
+                    >
+                      <span>Visit Target</span>
+                      <FiExternalLink size={13} />
+                    </a>
                   </div>
                 </div>
 
