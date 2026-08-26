@@ -15,35 +15,44 @@ const projects = [
     featured: true
   },
   {
-    title: 'E-commerce Web Application',
-    description: 'A comprehensive full-stack e-commerce platform built to handle product management, secure authentication, and seamless transactions.',
-    techStack: ['Java', 'Spring Boot', 'React', 'SQL'],
-    github: 'https://github.com/naveenkumar-arch',
+    title: 'Spring Boot E-commerce Platform',
+    description: 'A comprehensive full-stack e-commerce engine with product cataloging, user authentication, inventory tracking, and payment processing.',
+    techStack: ['Java', 'Spring Boot', 'React', 'MySQL', 'REST API'],
+    github: 'https://github.com/naveenkumar-arch/SPRING_BOOT_PROJECT',
     demo: '#',
     image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     featured: true
   },
   {
-    title: 'School Management System',
-    description: 'A robust management system for educational institutions featuring privilege-based access control for admins, teachers, and students.',
-    techStack: ['Java', 'JDBC', 'JSP', 'SQL'],
-    github: 'https://github.com/naveenkumar-arch',
+    title: 'Employee Hub CRUD Operations',
+    description: 'Enterprise employee management dashboard supporting full CRUD operations, role filtering, search, and dynamic responsive data tables.',
+    techStack: ['React', 'Node.js', 'Express', 'SQL', 'Tailwind CSS'],
+    github: 'https://github.com/naveenkumar-arch/employeehub_crud',
     demo: '#',
-    image: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     featured: true
   },
   {
-    title: 'JARVIS AI Assistant',
+    title: 'API Securing Proxy Architecture',
+    description: 'High-security API gateway proxy with request rate-limiting, IP masking, token validation, and endpoint protection against DDoS and abuse.',
+    techStack: ['JavaScript', 'Node.js', 'Express Proxy', 'Cybersecurity'],
+    github: 'https://github.com/naveenkumar-arch/api-securingproxy',
+    demo: 'https://api-securing-using-proxy.vercel.app',
+    image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    featured: true
+  },
+  {
+    title: 'JARVIS Tony Stark AI Assistant',
     description: 'A sleek Tony Stark-themed AI desktop assistant supporting dynamic verbal interaction, offline speech processing, custom macros, and smart system commands.',
     techStack: ['TypeScript', 'React', 'Speech Recognition', 'Speech Synthesis', 'Tailwind CSS'],
-    github: 'https://github.com/naveenkumar-arch/JARVIS_Tony_stark_ai_assistant',
+    github: 'https://github.com/naveenkumar-arch/JARVIS_AI_ASSISTANT',
     demo: '#',
     image: 'https://images.unsplash.com/photo-1507668077129-56e32842fceb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
   },
   {
     title: 'Cyber Net Lab',
-    description: 'Interactive platform for learning networking and cybersecurity fundamentals. Includes visual labs for IPv4, IPv6, TCP/UDP, DNS, and HTTP/HTTPS.',
-    techStack: ['HTML', 'CSS', 'JavaScript'],
+    description: 'Interactive visual platform for learning networking and cybersecurity fundamentals. Includes visual labs for IPv4, IPv6, TCP/UDP, DNS, and HTTP/HTTPS.',
+    techStack: ['HTML', 'CSS', 'JavaScript', 'Networking'],
     github: 'https://github.com/naveenkumar-arch/-CYBER-NET-LAB',
     demo: '#',
     image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
@@ -62,15 +71,7 @@ const projects = [
     techStack: ['TypeScript', 'React', 'Tailwind CSS', 'NLP', 'JSON Parser'],
     github: 'https://github.com/naveenkumar-arch/RESUME_CHECKER',
     demo: '#',
-    image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-  },
-  {
-    title: 'API Securing Using Proxy',
-    description: 'API integration and securing mechanism utilizing a proxy architecture to protect endpoints from direct exposure and attacks.',
-    techStack: ['JavaScript', 'Node.js', 'API'],
-    github: 'https://github.com/naveenkumar-arch/API-SECURING-USING-PROXY',
-    demo: 'https://api-securing-using-proxy.vercel.app',
-    image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1586281380349-632531db7ed4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
   },
   {
     title: 'Temporary Ephemeral Chat',
@@ -81,20 +82,12 @@ const projects = [
     image: 'https://images.unsplash.com/photo-1611746872915-64382b5c76da?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
   },
   {
-    title: 'PokeWeather',
-    description: 'A dynamic web app integrating a Weather API and Pokémon API to suggest Pokémon based on current weather conditions.',
-    techStack: ['HTML', 'CSS', 'JavaScript', 'REST APIs'],
-    github: 'https://github.com/naveenkumar-arch/POKE_WEATHER',
+    title: 'Chronos Watch E-Commerce',
+    description: 'A premium luxury timepiece e-commerce interface with dynamic catalog filters, responsive cart drawer, and modern UI transitions.',
+    techStack: ['HTML', 'CSS', 'JavaScript', 'Responsive UI'],
+    github: 'https://github.com/naveenkumar-arch/CHRONOS_WATCH_E-COMMERECE',
     demo: '#',
-    image: 'https://images.unsplash.com/photo-1613771404784-3a5686aa2be3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-  },
-  {
-    title: 'CodSoft Internship Projects',
-    description: 'Completed 3 web projects (Calculator, Landing Page, Portfolio) gaining hands-on experience in layout design and DOM manipulation.',
-    techStack: ['HTML', 'CSS', 'JavaScript'],
-    github: 'https://github.com/naveenkumar-arch/CODSOFT',
-    demo: '#',
-    image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
   }
 ];
 
@@ -104,7 +97,7 @@ const Projects = () => {
       <div className="container mx-auto px-6">
         <SectionHeading 
           title="Featured Projects" 
-          subtitle="A selection of my best work and open-source contributions."
+          subtitle="A selection of software systems, applications, and open-source projects I've built."
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
