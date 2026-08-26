@@ -8,6 +8,7 @@ const navLinks = [
   { name: 'About', href: '#about' },
   { name: 'Skills', href: '#skills' },
   { name: 'Projects', href: '#projects' },
+  { name: 'Freelance', href: '#freelance' },
   { name: 'Education', href: '#education' },
   { name: 'Experience', href: '#experience' },
   { name: 'Contact', href: '#contact' },
@@ -61,10 +62,10 @@ const Navbar = () => {
 
             <div className="flex items-center space-x-6 pl-6">
               <a 
-                href="#" 
+                href="#contact" 
                 className="bg-neon-purple text-white px-6 py-2 rounded-xl font-semibold hover:shadow-[0_0_15px_rgba(139,92,246,0.5)] hover:-translate-y-0.5 transition-all duration-300"
               >
-                Resume
+                Hire Me
               </a>
             </div>
           </div>
