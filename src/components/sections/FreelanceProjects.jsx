@@ -11,7 +11,7 @@ const clientProjects = [
     type: 'Production Client Deployment',
     liveBadge: 'LIVE IN PRODUCTION',
     url: 'https://www.vrgnursery.in',
-    image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80',
+    image: 'https://www.vrgnursery.in/products/cat-rose-varieties-banner.jpg',
     description: 'Designed and deployed an end-to-end commercial live sapling e-commerce platform with automated delivery logistics for a farm nursery in Tamil Nadu. Handles full cart-to-doorstep order pipelines with real-time payment verifications, thermal label generation, and automated WhatsApp notifications.',
     highlights: [
       'Processed ₹45,000+ GMV transactional volume across 110+ live verified orders.',
@@ -23,36 +23,36 @@ const clientProjects = [
     featured: true
   },
   {
-    title: 'Krishna Students Printers & Stationery',
-    subtitle: 'Retail Print-Queue & Student Billing Management System',
+    title: 'Krishna Students Print Hub',
+    subtitle: 'Online Document Upload, Print-Queue & Student Billing Portal',
     type: 'Commercial Retail Client',
-    liveBadge: 'DEPLOYED IN STORE',
-    url: '#',
+    liveBadge: 'LIVE IN PRODUCTION',
+    url: 'https://krishna-students-print-hub.vercel.app',
     image: 'https://images.unsplash.com/photo-1562654501-a0ccc0fc3fb1?auto=format&fit=crop&w=1200&q=80',
-    description: 'Engineered a centralized retail billing and print-queue management software for an academic printing & stationery hub. Replaces manual receipt books with digital job tracking and paper inventory control.',
+    description: 'Engineered an online document upload, Xerox/print request queue, and student payment billing web application. Enables students to upload print jobs remotely, pay via UPI QR, and collect their prints with zero wait-time.',
     highlights: [
-      'Digital print queue tracking for Xerox, spiral binding, and custom student printing jobs.',
-      'Real-time stationery stock ledger with low-stock alerts and automatic price calculation.',
-      'Thermal receipt generation and student account ledger management.'
+      'Online file & document upload system with real-time page calculation and printing options.',
+      'Instant UPI QR checkout with payment confirmation and order receipt generation.',
+      'Digital print queue tracking with real-time store inventory management.'
     ],
-    techStack: ['React', 'Node.js', 'Express', 'SQL Ledger', 'Tailwind CSS', 'REST APIs'],
-    featured: false
+    techStack: ['React', 'Node.js', 'Express', 'Tailwind CSS', 'UPI QR Integration', 'Vercel'],
+    featured: true
   },
   {
     title: 'Sri Thirumala Foam Wash Portal',
-    subtitle: 'Automated Vehicle Service Slot Booking & Invoicing System',
+    subtitle: 'Doorstep Pickup, Foam Wash Booking & Live Tracking System',
     type: 'Commercial Business Client',
-    liveBadge: 'CLIENT SYSTEM',
-    url: '#',
+    liveBadge: 'LIVE IN PRODUCTION',
+    url: 'https://sri-thirumala-foam-wash.vercel.app',
     image: 'https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?auto=format&fit=crop&w=1200&q=80',
-    description: 'Developed an online booking and job-card management system for an automotive foam wash & detailing center. Enables customers to book time slots while staff track vehicle wash stages in real-time.',
+    description: 'Developed a doorstep vehicle pickup, foam wash slot reservation, and digital customer management platform. Features pickup scheduling, live vehicle wash progress stages, service history records, and automated invoicing.',
     highlights: [
-      'Dynamic time-slot reservation system preventing shop-floor congestion.',
-      'Live vehicle wash status tracker with automated customer SMS/WhatsApp notifications.',
-      'Digital GST invoicing, customer service history logs, and daily revenue analytics.'
+      'Interactive doorstep vehicle pickup & drop-off booking scheduler.',
+      'Live service stage tracker with automated customer status notifications.',
+      'Digital GST invoicing, customer vehicle service history logs, and analytics dashboard.'
     ],
-    techStack: ['React', 'Tailwind CSS', 'Express.js', 'PostgreSQL', 'RESTful API'],
-    featured: false
+    techStack: ['React', 'Tailwind CSS', 'Express.js', 'PostgreSQL', 'RESTful APIs', 'Vercel'],
+    featured: true
   }
 ];
 
@@ -106,7 +106,7 @@ const FreelanceProjects = () => {
                             href={project.url} 
                             target="_blank" 
                             rel="noreferrer"
-                            className="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-300 hover:text-white bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 px-3 py-1 rounded-full transition-all"
+                            className="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-300 hover:text-white bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 px-3.5 py-1.5 rounded-full transition-all hover:shadow-[0_0_15px_rgba(16,185,129,0.3)]"
                           >
                             <span>Visit Live Site</span>
                             <FiExternalLink size={13} />
