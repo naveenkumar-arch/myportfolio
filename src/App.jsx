@@ -6,8 +6,9 @@ import Footer from './components/layout/Footer';
 import Hero from './components/sections/Hero';
 import About from './components/sections/About';
 import Skills from './components/sections/Skills';
-import Projects from './components/sections/Projects';
 import FreelanceProjects from './components/sections/FreelanceProjects';
+import Projects from './components/sections/Projects';
+import BugBounty from './components/sections/BugBounty';
 import Education from './components/sections/Education';
 import Certifications from './components/sections/Certifications';
 import ExperienceJourney from './components/sections/ExperienceJourney';
@@ -38,6 +39,7 @@ function App() {
         <Skills />
         <FreelanceProjects />
         <Projects />
+        <BugBounty />
         <Education />
         <Certifications />
         <ExperienceJourney />
