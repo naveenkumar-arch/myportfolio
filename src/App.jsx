@@ -7,6 +7,7 @@ import Hero from './components/sections/Hero';
 import About from './components/sections/About';
 import Skills from './components/sections/Skills';
 import Projects from './components/sections/Projects';
+import FreelanceProjects from './components/sections/FreelanceProjects';
 import Education from './components/sections/Education';
 import Certifications from './components/sections/Certifications';
 import ExperienceJourney from './components/sections/ExperienceJourney';
@@ -35,6 +36,7 @@ function App() {
         <Hero />
         <About />
         <Skills />
+        <FreelanceProjects />
         <Projects />
         <Education />
         <Certifications />
