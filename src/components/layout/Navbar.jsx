@@ -7,8 +7,9 @@ const navLinks = [
   { name: 'Home', href: '#home' },
   { name: 'About', href: '#about' },
   { name: 'Skills', href: '#skills' },
-  { name: 'Projects', href: '#projects' },
   { name: 'Freelance', href: '#freelance' },
+  { name: 'Projects', href: '#projects' },
+  { name: 'Bug Bounty', href: '#bug-bounty' },
   { name: 'Education', href: '#education' },
   { name: 'Experience', href: '#experience' },
   { name: 'Contact', href: '#contact' },
@@ -47,12 +48,12 @@ const Navbar = () => {
 
           {/* Desktop Nav */}
           <div className="hidden md:flex items-center space-x-8">
-            <div className="flex space-x-6">
+            <div className="flex space-x-5">
               {navLinks.map((link) => (
                 <a
                   key={link.name}
                   href={link.href}
-                  className="text-gray-300 hover:text-white transition-colors duration-300 relative group text-sm font-medium"
+                  className="text-gray-300 hover:text-white transition-colors duration-300 relative group text-xs lg:text-sm font-medium"
                 >
                   {link.name}
                   <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-neon-purple to-neon-blue transition-all duration-300 group-hover:w-full"></span>
@@ -60,10 +61,10 @@ const Navbar = () => {
               ))}
             </div>
 
-            <div className="flex items-center space-x-6 pl-6">
+            <div className="flex items-center space-x-6 pl-4">
               <a 
                 href="#contact" 
-                className="bg-neon-purple text-white px-6 py-2 rounded-xl font-semibold hover:shadow-[0_0_15px_rgba(139,92,246,0.5)] hover:-translate-y-0.5 transition-all duration-300"
+                className="bg-neon-purple text-white px-5 py-2 rounded-xl text-sm font-semibold hover:shadow-[0_0_15px_rgba(139,92,246,0.5)] hover:-translate-y-0.5 transition-all duration-300"
               >
                 Hire Me
               </a>
@@ -90,26 +91,26 @@ const Navbar = () => {
             transition={{ type: 'tween', duration: 0.3 }}
             className="fixed inset-0 z-40 bg-background/95 backdrop-blur-xl md:hidden flex flex-col items-center justify-center pt-20"
           >
-            <div className="flex flex-col space-y-8 text-center">
+            <div className="flex flex-col space-y-6 text-center">
               {navLinks.map((link) => (
                 <a
                   key={link.name}
                   href={link.href}
                   onClick={() => setIsOpen(false)}
-                  className="text-2xl font-semibold text-gray-300 hover:text-white hover:text-neon-purple transition-colors duration-300"
+                  className="text-xl font-semibold text-gray-300 hover:text-white hover:text-neon-purple transition-colors duration-300"
                 >
                   {link.name}
                 </a>
               ))}
-              <div className="flex justify-center space-x-6 pt-8 border-t border-white/20">
+              <div className="flex justify-center space-x-6 pt-6 border-t border-white/20">
                 <a href="https://github.com/naveenkumar-arch" target="_blank" rel="noreferrer" className="text-gray-300 hover:text-neon-purple transition-colors">
-                  <FiGithub size={28} />
+                  <FiGithub size={26} />
                 </a>
                 <a href="https://www.linkedin.com/in/naveen-kumar-k-700b802b9/" target="_blank" rel="noreferrer" className="text-gray-300 hover:text-neon-blue transition-colors">
-                  <FiLinkedin size={28} />
+                  <FiLinkedin size={26} />
                 </a>
                 <a href="mailto:nv01110612@gmail.com" className="text-gray-300 hover:text-white transition-colors">
-                  <FiMail size={28} />
+                  <FiMail size={26} />
                 </a>
               </div>
             </div>
