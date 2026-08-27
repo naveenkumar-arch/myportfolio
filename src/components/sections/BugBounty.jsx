@@ -37,36 +37,7 @@ const securityReports = [
       'Eliminated unauthenticated offline fallback paths to enforce strict server-side authentication.',
       'Enforced server-side object-level authorization across all API routes to prevent IDOR and unauthorized state tampering.'
     ]
-  },
-  {
-    title: 'E-Commerce & Retail Ledger — Transactional Logic & Workflow Audit',
-    target: 'Production Retail Portals',
-    url: 'https://www.vrgnursery.in',
-    date: 'July 2026',
-    severity: 'High / Logic Flaws',
-    category: 'Business Logic & Order Tampering Prevention',
-    summary: 'Performed deep architectural security audits across production transactional web apps, identifying vulnerabilities in client-trust pricing models and race conditions in multi-stage order pipelines.',
-    keyFindings: [
-      {
-        name: 'Client-Supplied Price Trust Vulnerability',
-        detail: 'Cart requests allowed manipulation of unit prices before reaching checkout if server failed to re-query database catalog.'
-      },
-      {
-        name: 'Webhook Replay & Payment Spoofing Risks',
-        detail: 'Payment webhooks without cryptographic checksum validations risked forged transaction completions.'
-      },
-      {
-        name: 'Relational Database Cascade Data Loss',
-        detail: 'Identified database cascade policies that unintentionally wiped historical customer order logs when catalog items were modified.'
-      }
-    ],
-    remediations: [
-      'Mandated strict server-side price lookup from database models, rejecting any client-supplied financial parameters.',
-      'Configured HMAC-SHA256 signature verification for all payment gateway webhooks (Razorpay & PhonePe).',
-      'Engineered permanent immutable order snapshot architectures decoupled from catalog mutations.'
-    ]
-  }
-];
+  }];
 
 const BugBounty = () => {
   return (
